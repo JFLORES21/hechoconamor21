@@ -1,0 +1,156 @@
+*,
+::before,
+::after {
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	color:#6d0664;
+	font-family: 'dancing script', cursive;
+	font-size: 25px;
+	font-weight:normal; ;
+	background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body section {
+	height: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header{
+	display:flex;
+	width: 1170px;
+	margin:auto;
+}
+
+
+
+.logo a {
+	display: inline-block;
+}
+
+.menu{ flex-grow: 1;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+
+}
+.menu a{ text-decoration: none;
+		color: #870691;
+		font-weight: bold;
+
+}
+.menu ul {
+	margin: 0
+	padding:0;
+	display: flex;
+}
+
+.menu li{
+	display: inline-block;
+	margin: right:10px;
+	margin-left: 10px;
+}
+h1 {text-align: center;
+	font-weight: bold;
+	width: 100%;
+	
+	
+}
+
+form {
+background: #fff;
+padding: 40px;
+box-shadow: 0 0 6px 0 rgba(255,255,255,0.8);
+border- border-radius: 10px;
+}
+
+.form{
+	width:100%;
+	margin:auto;
+}
+
+form .grupo{
+	position: relative;
+	margin:45px;
+}
+
+input{
+	background:none;
+	color:#c6c6c6;
+	font-size:18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%,
+	border:none;
+	border-bottom: 1px solid cyan;
+}
+
+input:focus{
+	outline:none;
+	color: #5e5d5d;
+}
+
+label{
+	font-size:16px;
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+	top:10px;
+	transition:0.5s ease-in-out all;
+	pointer-events: none;
+
+}
+input:focus ~ label, 
+input:valid~label{
+	top:-14px;
+	font-size: 20px;
+	font-weight:bold;
+	color:#2196f3;
+}
+
+.barra{
+	position:relative;
+	display: block;
+	width: 100%;
+}
+
+
+.barra::before{
+	content: "" ;
+	height: 2px;
+	width: 0%;
+	bottom: 0;
+	position: absolute;
+	background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+	transition:0.3s ease width;
+	left:0;
+}
+
+input:focus~barra::before{
+width: 100%;
+}
+button {
+	font-family: 'dancing script', cursive;
+	background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+display: block;
+width: 80%;
+margin:10px auto;
+color: #fff;
+height: 40px;
+font-size:22px;
+font-weight:bold;
+cursor:pointer;
+
+}
