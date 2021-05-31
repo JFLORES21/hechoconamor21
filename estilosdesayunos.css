@@ -1,0 +1,60 @@
+body{
+	color:#6d0664;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight:normal; ;
+	background: #FFAFBD;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffc3a0, #FFAFBD); 
+	}
+
+
+*{box-sizing: border-box;}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	}
+
+table{
+	width:90%;
+	background-color: white;
+	text-align: left; 
+	border-collapse: collapse;
+	padding: 50px 10px;
+	margin: 50px auto;
+}
+
+th,td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #ac4ef0;
+	border-bottom: solid 5px #684198;
+	color:white; 
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+tr:hover td{
+	background-color:white;
+	}
+	footer {
+		background-color: #f8f9fa;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin: 25px;
+		text-align: center;
+	}
+	.logotipofooter{
+		width: 80px;
+		margin-bottom: 20px;
+	}
+	.iconos_redes{
+		width: 80px;
+		padding: 10px 5px;
+	}

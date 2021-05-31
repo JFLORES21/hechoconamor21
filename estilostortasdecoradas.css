@@ -1,0 +1,52 @@
+body{
+	color:#6d0664;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight:normal; ;
+	background: #FFAFBD;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffc3a0, #FFAFBD); 
+}
+header{
+	display:flex;
+	margin:auto;
+}
+
+* {
+	box-sizing: border-box;
+	}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.grid {
+
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6,auto);
+   	padding: 10px auto;
+   	grid-column-gap: 15px;
+   	grid-row-gap: 15px;
+  	margin: 25px 25px ;
+  	justify-items:stretch;
+  	align-items: stretch;
+	  padding-bottom: 50px;
+}
+footer {
+	background-color: #f8f9fa;
+	padding: 25px;
+	margin:25px;
+	text-align: center;
+}
+.logotipofooter{
+	width: 80px;
+	margin-bottom: 20px;
+}
+.iconos_redes{
+	width: 80px;
+	padding: 10px 5px;
+}
